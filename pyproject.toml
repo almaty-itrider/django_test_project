@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-test-project-2"
+version = "0.1.0"
+description = ""
+authors = ["Abylay"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.7"
+psycopg2-binary = "^2.9.9"
+django-prometheus = "^2.3.1"
+django-environ = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,47 @@
+x-configs: &common_config
+  restart: always
+  env_file:
+    - .env
+
+
+services:
+  db:
+    <<: *common_config
+    container_name: db
+    image: postgres:16-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  web:
+    <<: *common_config
+    container_name: web
+    depends_on:
+      - db
+    build: .
+    volumes:
+      - ./src:/test/src
+    ports:
+      - "8000:8000"
+    command: sh -c "poetry run python3 ./src/manage.py migrate && poetry run python3 ./src/manage.py runserver 0.0.0.0:8000"
+
+  prometheus:
+    <<: *common_config
+    image: prom/prometheus:v2.53.1
+    container_name: prometheus
+    volumes:
+      - .:/etc/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+
+  grafana:
+    <<: *common_config
+    image: grafana/grafana:9.5.20
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+
+volumes:
+  postgres_data:
+  grafana-storage:
