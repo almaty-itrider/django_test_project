@@ -23,8 +23,8 @@ services:
 
   prometheus:
     <<: *common_config
-    image: prom/prometheus:v2.53.1
     container_name: prometheus
+    image: prom/prometheus:v2.53.1
     volumes:
       - ./prometheus:/etc/prometheus
     command:
@@ -32,8 +32,8 @@ services:
 
   grafana:
     <<: *common_config
-    image: grafana/grafana:9.5.20
     container_name: grafana
+    image: grafana/grafana:9.5.20
     ports:
       - "3000:3000"
     volumes:
