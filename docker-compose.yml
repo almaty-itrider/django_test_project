@@ -20,15 +20,13 @@ services:
     build: .
     volumes:
       - ./src:/test/src
-    ports:
-      - "8000:8000"
 
   prometheus:
     <<: *common_config
     image: prom/prometheus:v2.53.1
     container_name: prometheus
     volumes:
-      - .:/etc/prometheus
+      - ./prometheus:/etc/prometheus
     command:
       - '--config.file=/etc/prometheus/prometheus.yml'
 
@@ -40,6 +38,17 @@ services:
       - "3000:3000"
     volumes:
       - grafana-storage:/var/lib/grafana
+
+  nginx:
+    <<: *common_config
+    container_name: nginx
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - web
 
 volumes:
   postgres_data:
