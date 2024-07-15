@@ -22,7 +22,6 @@ services:
       - ./src:/test/src
     ports:
       - "8000:8000"
-    command: sh -c "poetry run python3 ./src/manage.py migrate && poetry run python3 ./src/manage.py runserver 0.0.0.0:8000"
 
   prometheus:
     <<: *common_config
