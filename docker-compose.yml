@@ -42,7 +42,7 @@ services:
   nginx:
     <<: *common_config
     container_name: nginx
-    image: nginx:latest
+    image: nginx:1.27.0-alpine
     ports:
       - "80:80"
     volumes:
