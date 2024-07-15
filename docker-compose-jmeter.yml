@@ -1,0 +1,13 @@
+services:
+  jmeter:
+    container_name: jmeter
+    image: justb4/jmeter:5.5
+    volumes:
+      - ./jmeter:/test
+    entrypoint: ["jmeter", "-n", "-t", "/test/test_plan.jmx", "-l", "/test/results.jtl"]
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    external: true

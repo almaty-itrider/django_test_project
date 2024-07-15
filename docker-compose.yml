@@ -2,6 +2,8 @@ x-configs: &common_config
   restart: always
   env_file:
     - .env
+  networks:
+    - my_network
 
 
 services:
@@ -53,3 +55,7 @@ services:
 volumes:
   postgres_data:
   grafana-storage:
+
+networks:
+  my_network:
+    external: true

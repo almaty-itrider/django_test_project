@@ -1,0 +1,251 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1721045789734,141,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,122,1,1,http://nginx/admin/login/,128,0,80
+1721045789893,27,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,26,0,0
+1721045789922,31,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045789922,10,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045789936,17,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,17,0,0
+1721045789956,18,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,18,0,0
+1721045789976,12,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045789990,29,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045789990,8,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045789999,20,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045790027,18,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045790046,13,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,13,0,0
+1721045790060,34,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,14,0,0
+1721045790060,14,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,14,0,0
+1721045790074,20,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045790095,20,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045790116,12,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045790130,40,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045790130,10,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045790140,30,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,30,0,0
+1721045790172,19,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,19,0,0
+1721045790193,13,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045790207,32,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,11,0,0
+1721045790207,11,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,11,0,0
+1721045790219,20,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,20,0,0
+1721045790241,20,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,19,0,0
+1721045790262,12,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045790275,31,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045790275,9,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045790284,22,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,22,0,0
+1721045790308,20,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045790329,12,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,11,0,0
+1721045790342,29,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045790342,8,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045790351,20,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,20,0,0
+1721045790373,20,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045790394,16,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,16,0,0
+1721045790412,31,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045790412,10,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045790422,21,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,21,0,0
+1721045790446,16,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,16,0,0
+1721045790463,19,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,18,0,0
+1721045790483,28,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045790483,8,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045790491,20,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,20,0,0
+1721045790513,19,Get Login Page,200,OK,Thread Group 1-1,text,true,,4697,174,1,1,http://nginx/admin/login/,18,0,0
+1721045790533,13,Login,403,Forbidden,Thread Group 1-1,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045790547,31,Access Admin,200,OK,Thread Group 1-1,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045790547,10,Access Admin-0,302,Found,Thread Group 1-1,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045790558,20,Access Admin-1,200,OK,Thread Group 1-1,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045791475,9,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,122,1,1,http://nginx/admin/login/,9,0,1
+1721045791486,21,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,21,0,0
+1721045791509,49,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,7,0,0
+1721045791509,7,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,7,0,0
+1721045791517,41,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,41,0,0
+1721045791559,17,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045791577,10,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,10,0,0
+1721045791588,30,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045791588,10,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045791598,20,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,20,0,0
+1721045791620,17,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045791639,11,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,11,0,0
+1721045791651,29,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045791651,10,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045791662,18,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,18,0,0
+1721045791682,19,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,19,0,0
+1721045791702,13,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,13,0,0
+1721045791716,28,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045791716,10,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045791727,17,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,17,0,0
+1721045791746,20,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045791767,12,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045791780,29,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045791780,9,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045791790,19,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045791810,23,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,23,0,0
+1721045791834,25,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,25,0,0
+1721045791860,24,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,7,0,0
+1721045791860,7,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,7,0,0
+1721045791867,17,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,17,0,0
+1721045791887,22,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,22,0,0
+1721045791910,16,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,16,0,0
+1721045791927,33,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045791927,8,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045791936,24,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,24,0,0
+1721045791961,24,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,24,0,0
+1721045791987,13,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,13,0,0
+1721045792001,25,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045792001,8,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045792009,17,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,16,0,0
+1721045792027,21,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,21,0,0
+1721045792049,15,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,15,0,0
+1721045792065,24,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,7,0,0
+1721045792065,7,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,7,0,0
+1721045792073,16,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,16,0,0
+1721045792091,20,Get Login Page,200,OK,Thread Group 1-2,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045792113,11,Login,403,Forbidden,Thread Group 1-2,text,false,,2826,316,1,1,http://nginx/admin/login/,11,0,0
+1721045792125,31,Access Admin,200,OK,Thread Group 1-2,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,11,0,0
+1721045792125,11,Access Admin-0,302,Found,Thread Group 1-2,text,true,,455,168,1,1,http://nginx/admin/,11,0,0
+1721045792136,20,Access Admin-1,200,OK,Thread Group 1-2,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,20,0,0
+1721045793468,12,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,122,1,1,http://nginx/admin/login/,12,0,1
+1721045793481,6,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,6,0,0
+1721045793488,21,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045793488,10,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045793499,10,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045793510,20,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,19,0,0
+1721045793531,10,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,10,0,0
+1721045793542,31,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045793542,9,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045793552,21,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,21,0,0
+1721045793575,10,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,10,0,0
+1721045793586,15,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,14,0,0
+1721045793602,28,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045793602,8,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045793611,19,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045793631,21,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045793653,11,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,11,0,0
+1721045793665,31,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045793665,9,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045793675,21,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,21,0,0
+1721045793698,20,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045793719,12,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045793732,30,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045793732,9,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045793741,21,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,21,0,0
+1721045793763,18,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,18,0,0
+1721045793782,15,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,15,0,0
+1721045793798,29,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045793798,10,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045793808,19,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045793829,17,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045793848,11,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,10,0,0
+1721045793859,31,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045793859,10,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045793870,20,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045793891,17,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045793909,12,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045793922,26,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045793922,8,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045793931,17,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,17,0,0
+1721045793950,17,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045793968,12,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,11,0,0
+1721045793980,27,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045793980,8,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045793989,18,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,18,0,0
+1721045794008,21,Get Login Page,200,OK,Thread Group 1-3,text,true,,4697,174,1,1,http://nginx/admin/login/,21,0,0
+1721045794031,13,Login,403,Forbidden,Thread Group 1-3,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045794045,31,Access Admin,200,OK,Thread Group 1-3,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,11,0,0
+1721045794045,11,Access Admin-0,302,Found,Thread Group 1-3,text,true,,455,168,1,1,http://nginx/admin/,11,0,0
+1721045794057,19,Access Admin-1,200,OK,Thread Group 1-3,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045795509,18,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,122,1,1,http://nginx/admin/login/,18,0,2
+1721045795528,11,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,11,0,0
+1721045795540,24,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,6,0,0
+1721045795540,6,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,6,0,0
+1721045795547,17,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,16,0,0
+1721045795565,18,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045795584,9,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,9,0,0
+1721045795594,35,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045795594,8,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045795602,27,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,27,0,0
+1721045795630,18,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,18,0,0
+1721045795649,16,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,16,0,0
+1721045795665,36,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045795665,10,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045795675,26,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,26,0,0
+1721045795702,20,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,19,0,0
+1721045795723,10,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,10,0,0
+1721045795734,33,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,11,0,0
+1721045795734,11,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,11,0,0
+1721045795745,22,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,22,0,0
+1721045795768,17,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045795786,14,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,14,0,0
+1721045795801,29,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045795801,9,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045795811,19,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045795834,21,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,21,0,0
+1721045795856,10,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,10,0,0
+1721045795867,32,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045795867,9,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045795877,22,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,21,0,0
+1721045795900,22,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,21,0,0
+1721045795923,13,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,13,0,0
+1721045795937,28,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045795937,10,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045795947,18,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,18,0,0
+1721045795967,36,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,35,0,0
+1721045796005,9,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,9,0,0
+1721045796015,36,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,11,0,0
+1721045796015,11,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,11,0,0
+1721045796027,24,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,24,0,0
+1721045796052,24,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,24,0,0
+1721045796077,12,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045796090,28,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045796090,10,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045796100,18,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,17,0,0
+1721045796119,22,Get Login Page,200,OK,Thread Group 1-4,text,true,,4697,174,1,1,http://nginx/admin/login/,22,0,0
+1721045796142,14,Login,403,Forbidden,Thread Group 1-4,text,false,,2826,316,1,1,http://nginx/admin/login/,14,0,0
+1721045796157,33,Access Admin,200,OK,Thread Group 1-4,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,13,0,0
+1721045796157,13,Access Admin-0,302,Found,Thread Group 1-4,text,true,,455,168,1,1,http://nginx/admin/,13,0,0
+1721045796171,19,Access Admin-1,200,OK,Thread Group 1-4,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045797499,21,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,122,1,1,http://nginx/admin/login/,21,0,1
+1721045797522,12,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045797535,31,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045797535,9,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045797545,21,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,21,0,0
+1721045797567,16,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,16,0,0
+1721045797584,13,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045797598,26,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045797598,8,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045797607,17,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,17,0,0
+1721045797626,22,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,22,0,0
+1721045797650,11,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,11,0,0
+1721045797662,32,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045797662,9,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045797671,23,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,23,0,0
+1721045797696,20,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045797718,12,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045797731,32,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045797731,10,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045797741,22,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,22,0,0
+1721045797764,19,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,19,0,0
+1721045797785,11,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,11,0,0
+1721045797797,29,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,9,0,0
+1721045797797,9,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,9,0,0
+1721045797807,19,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045797827,17,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045797845,15,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,15,0,0
+1721045797861,30,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,11,0,0
+1721045797861,11,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,11,0,0
+1721045797872,19,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
+1721045797892,20,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045797913,12,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045797926,27,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,8,0,0
+1721045797926,8,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,8,0,0
+1721045797935,18,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,18,0,0
+1721045797955,17,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,17,0,0
+1721045797973,14,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,14,0,0
+1721045797988,31,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,10,0,0
+1721045797988,10,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,10,0,0
+1721045797998,21,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,21,0,0
+1721045798020,21,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045798042,12,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045798055,30,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,7,0,0
+1721045798055,7,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,7,0,0
+1721045798063,22,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,22,0,0
+1721045798087,20,Get Login Page,200,OK,Thread Group 1-5,text,true,,4697,174,1,1,http://nginx/admin/login/,20,0,0
+1721045798108,12,Login,403,Forbidden,Thread Group 1-5,text,false,,2826,316,1,1,http://nginx/admin/login/,12,0,0
+1721045798121,27,Access Admin,200,OK,Thread Group 1-5,text,true,,5165,355,1,1,http://nginx/admin/login/?next=/admin/,7,0,0
+1721045798121,7,Access Admin-0,302,Found,Thread Group 1-5,text,true,,455,168,1,1,http://nginx/admin/,7,0,0
+1721045798129,19,Access Admin-1,200,OK,Thread Group 1-5,text,true,,4710,187,1,1,http://nginx/admin/login/?next=/admin/,19,0,0
